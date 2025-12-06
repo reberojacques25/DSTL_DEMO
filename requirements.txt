@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+altair
+scikit-learn
+requests
+openpyxl
