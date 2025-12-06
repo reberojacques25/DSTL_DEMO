@@ -12,7 +12,7 @@ import requests
 #                 🔐 GOOGLE GEMINI API KEY SETUP
 # -------------------------------------------------------------
 # Replace "YOUR_GEMINI_API_KEY" with your actual Google API key
-GEMINI_API_KEY = "AIzaSyDzuPPWuXy_vjK-kOa_IHZH5HkVVyFhdNM"
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 
 def call_gemini(prompt):
     """Call Google Gemini API and return a response."""
